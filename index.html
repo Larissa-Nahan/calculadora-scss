@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Scss</title>
+  </head>
+  <body>
+    <article class="container calculator">
+      <div class="calculator__display">
+        <input type="text" class="calculator__display-input" value="2+7" />
+        <div class="calculator__display-result">9</div>
+      </div>
+      <div class="calculator__callback">
+        <img src="assets/callback.png" alt="ìcone de seta" />
+      </div>
+      <div class="calculator__buttons">
+        <div class="calculator__buttons-wrapper">
+          <button class="calculator__buttons--button calculator__buttons--button-background-red calculator__buttons--button-color-grey">C</button>
+          <button class="calculator__buttons--button calculator__buttons--button-color-green">()</button>
+          <button class="calculator__buttons--button calculator__buttons--button-color-green">%</button>
+          <button class="calculator__buttons--button calculator__buttons--button-color-green">÷</button>
+        </div>
+        <div class="calculator__buttons-wrapper">
+          <button class="calculator__buttons--button">7</button>
+          <button class="calculator__buttons--button">8</button>
+          <button class="calculator__buttons--button">9</button>
+          <button class="calculator__buttons--button calculator__buttons--button-color-green">X</button>
+        </div>
+        <div class="calculator__buttons-wrapper">
+          <button class="calculator__buttons--button">4</button>
+          <button class="calculator__buttons--button">5</button>
+          <button class="calculator__buttons--button">6</button>
+          <button class="calculator__buttons--button calculator__buttons--button-color-green">-</button>
+        </div>
+        <div class="calculator__buttons-wrapper">
+          <button class="calculator__buttons--button">1</button>
+          <button class="calculator__buttons--button">2</button>
+          <button class="calculator__buttons--button">3</button>
+          <button class="calculator__buttons--button calculator__buttons--button-color-green">+</button>
+        </div>
+        <div class="calculator__buttons-wrapper">
+          <button class="calculator__buttons--button">+/-</button>
+          <button class="calculator__buttons--button">0</button>
+          <button class="calculator__buttons--button">.</button>
+          <button class="calculator__buttons--button calculator__buttons--button-background-green calculator__buttons--button-color-grey">=</button>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
