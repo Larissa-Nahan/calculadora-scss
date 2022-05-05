@@ -27,6 +27,9 @@ $buttonsOperator.forEach(function ($button) {
 });
 
 $buttonResult.addEventListener("click", function () {
+  calculate = calculate.replaceAll("x", "*");
+  calculate = calculate.replaceAll("÷", "/");
   $result.textContent = eval(calculate);
+
 });
 
