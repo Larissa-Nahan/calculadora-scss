@@ -161,6 +161,9 @@ table {
 }
 
 .calculator__display-input {
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
   background: transparent;
   outline: transparent;
   border: 0;

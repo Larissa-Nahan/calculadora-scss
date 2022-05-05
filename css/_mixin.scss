@@ -1,4 +1,4 @@
-@function calculator-rem($font-size){
-    $size: $font-size / 16;
-    @return $size + rem;
+@function calculator-rem($font-size) {
+  $size: $font-size / 16;
+  @return $size + rem;
 }
